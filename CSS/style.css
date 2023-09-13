@@ -159,6 +159,7 @@ header {
 header h4, header h1, header h6, header h5 {
   color: #5c7;
   margin: 2vh;
+  letter-spacing: 0.42vw;
 }
 header h4 {
   font-size: 4.5vw;
