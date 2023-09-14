@@ -1,4 +1,13 @@
 window.onload = function () {
+  let date = new Date();
+  let day = date.getDate();
+  if (day == 15) {
+    document.querySelector(".state").style.color = "green";
+    document.querySelector(".state").innerText = "✓";
+  } else {
+    document.querySelector(".state").style.color = "red";
+    document.querySelector(".state").innerText = "X";
+  }
   setTimeout(function () {
     document.querySelector(".loading-place").style.opacity = "0";
     window.scroll({
@@ -129,4 +138,4 @@ document.querySelector(".admin").onclick = function () {
   setTimeout(function () {
     window.location.href = "admin-victim.html";
   }, 450)
-}
+        }
