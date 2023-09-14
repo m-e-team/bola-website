@@ -128,7 +128,7 @@
   transition-duration: 0.5s;
   z-index: 10;
 }
-.one, .two, .three {
+.one, .two {
   width: 100%;
   height: 0.8vw;
   border-radius: 5vw;
@@ -293,8 +293,17 @@ footer {
   transition: 3.5s;
   opacity: 0;
 }
+.discount {
+  color: #5c7;
+  font-size: 6vw;
+  text-align: center;
+  margin: -5vw 0vw 5vw 0vw;
+}
+.state {
+  color: red;
+}
 @media (min-width: 1023px) {
   * {
     display: none;
   }
-}
+  }
