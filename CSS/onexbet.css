@@ -47,3 +47,25 @@ header h1 {
   border-width: 0.1vw;
   font-size: 4vw;
 }
+.video {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 98vw;
+  margin: -8px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 0px !important;
+}
+.vid {
+  height: 25vh;
+  width: 80%;
+  border-radius: 8vw;
+  border-color: #0ef7ff;
+  border-style: solid;
+  border-width: 0.1vw;
+}
+.vid-title {
+  color: white;
+  font-size: 5vw;
+}
